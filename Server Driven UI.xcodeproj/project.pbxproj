@@ -44,6 +44,7 @@
 		5D5308D32C4C13AD006CD382 /* Server Driven UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Server Driven UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5308D72C4C13AD006CD382 /* Server_Driven_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server_Driven_UIUITests.swift; sourceTree = "<group>"; };
 		5D5308D92C4C13AD006CD382 /* Server_Driven_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server_Driven_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D5308E62C4C15E6006CD382 /* Server-Driven-UI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Server-Driven-UI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		5D5308BB2C4C13AB006CD382 /* Server Driven UI */ = {
 			isa = PBXGroup;
 			children = (
+				5D5308E62C4C15E6006CD382 /* Server-Driven-UI-Info.plist */,
 				5D5308BC2C4C13AB006CD382 /* Server_Driven_UIApp.swift */,
 				5D5308BE2C4C13AB006CD382 /* ContentView.swift */,
 				5D5308C02C4C13AD006CD382 /* Assets.xcassets */,
@@ -425,6 +427,7 @@
 				DEVELOPMENT_TEAM = 274V7YW5R7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Server-Driven-UI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +457,7 @@
 				DEVELOPMENT_TEAM = 274V7YW5R7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Server-Driven-UI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
