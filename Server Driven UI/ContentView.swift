@@ -190,15 +190,17 @@ struct ContentView: View {
             {
               "id": "1",
               "type": "carousel",
-              "properties": {},
+              "properties": {
+                "title": "Featured Planets"
+              },
               "children": [
                 {
                   "id": "1a",
                   "type": "planetCard",
                   "properties": {
                     "name": "Mars",
-                    "description": "The Red Planet",
-                    "imageUrl": "https://example.com/mars.jpg"
+                    "description": "The Red Planet, fourth from the Sun",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"
                   }
                 },
                 {
@@ -206,37 +208,73 @@ struct ContentView: View {
                   "type": "planetCard",
                   "properties": {
                     "name": "Jupiter",
-                    "description": "The Giant Planet",
-                    "imageUrl": "https://example.com/jupiter.jpg"
+                    "description": "The largest planet in our solar system",
+                    "imageUrl": "https://r2.starryai.com/results/1005642157/99ab0279-90a1-46bf-956b-3f71819f2cc1.webp"
+                  }
+                },
+                {
+                  "id": "1c",
+                  "type": "planetCard",
+                  "properties": {
+                    "name": "Saturn",
+                    "description": "Known for its prominent ring system",
+                    "imageUrl": "https://t4.ftcdn.net/jpg/05/62/81/71/360_F_562817188_227uy25PA3PNPrDJSw32GmqHZdjXfNyo.jpg"
                   }
                 }
               ]
             },
             {
               "id": "2",
+              "type": "galaxyStats",
+              "properties": {
+                "statName": "Known Exoplanets",
+                "value": "4,395"
+              }
+            },
+            {
+              "id": "3",
               "type": "hscroll",
-              "properties": {},
+              "properties": {
+                "title": "Quick Facts"
+              },
               "children": [
                 {
-                  "id": "2a",
-                  "type": "galaxyStats",
-                  "properties": {
-                    "statName": "Known Exoplanets",
-                    "value": "4,395"
-                  }
-                },
-                {
-                  "id": "2b",
+                  "id": "3a",
                   "type": "galaxyStats",
                   "properties": {
                     "statName": "Milky Way Diameter",
                     "value": "100,000 ly"
                   }
+                },
+                {
+                  "id": "3b",
+                  "type": "galaxyStats",
+                  "properties": {
+                    "statName": "Observable Universe",
+                    "value": "93 billion ly"
+                  }
+                },
+                {
+                  "id": "3c",
+                  "type": "galaxyStats",
+                  "properties": {
+                    "statName": "Age of Universe",
+                    "value": "13.8 billion years"
+                  }
                 }
               ]
             },
             {
-              "id": "3",
+              "id": "4",
+              "type": "planetCard",
+              "properties": {
+                "name": "Earth",
+                "description": "Our home planet, teeming with life",
+                "imageUrl": "https://w0.peakpx.com/wallpaper/168/977/HD-wallpaper-earth-north-america-south-america-continents-universe-earth-from-space-planet.jpg"
+              }
+            },
+            {
+              "id": "5",
               "type": "exploreButton",
               "properties": {
                 "title": "Explore the Cosmos"
